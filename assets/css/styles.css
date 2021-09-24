@@ -1,0 +1,57 @@
+#piano {
+  width: 90%;
+  max-width: 720px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #143F6B;
+  margin: 120px;
+
+  display: flex;
+  justify-content: absolute;
+  align-items: center;
+
+  text-align: center;
+}
+
+  
+  .piano {
+    display: flex;
+  }
+  
+  .key {
+    height: calc(var(--width) * 4);
+    width: var(--width);
+  }
+  
+  .white {
+    --width: 75px;
+    height: 700px;
+    background-image: url(../images/ab.jpg);
+    border: 5px solid rgb(0, 0, 0);
+  
+  }
+
+
+
+  .white.active {
+    background-image: url(../images/f2.jpg);
+  }
+  
+  .black {
+    --width: 75px;
+    height: 400px;
+    background-image: url(../images/ab.jpg);
+    border: 5px solid rgb(0, 0, 0);
+    margin-left: calc(var(--width) / -2);
+    margin-right: calc(var(--width) / -2);
+    z-index: 2;
+  }
+  
+  .black.active {
+    background-image: url(../images/f2.jpg);
+  }

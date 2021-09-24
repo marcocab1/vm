@@ -1,0 +1,151 @@
+
+.contenedor {
+    width: 1224px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+background: #e0b5b5;
+    }
+
+    .note {
+        width: 50px;
+        height: 300px;
+        border-radius: 20px;
+        display: inline-block;
+        cursor: pointer;
+        background: #ffffff;
+    }
+
+    .center {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .while_bold {
+        font-family: Arial, Helvetica, sans-serif;
+        color: while;
+        font-weight: bold;
+        font-size: 20px;
+        user-select: none;
+    }
+
+    .note:nth-child(1) {
+        background: #ffffff;
+        height: 300px;
+  
+
+    }
+
+    
+    .note:nth-child(2) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(3) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(4) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(5) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(6) {
+        background: #9C640C;
+        height:300px;
+    }
+
+    .note:nth-child(7) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(8) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(9) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(10) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(11) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(12) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(13) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(14) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(15) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(16) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(17) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(18) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(19) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(20) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(21) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+    .note:nth-child(22) {
+        background: #9C640C;
+        height: 300px;
+    }
+
+
+   
